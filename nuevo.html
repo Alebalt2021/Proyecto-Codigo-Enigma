@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto N°2 Bootcamp</title>
+    <link rel="stylesheet" href="css/nuevo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+</head>
+<body>
+    <header class="header content">
+      <div class="header-video">
+        <video class="play" src="video/Video Game - 61019.mp4" autoplay loop></video>
+      </div>
+
+      <div class="header-overlay"></div>
+
+      <div class="header-content">
+        <div class="title"></div>
+            <h1 style="line-height: 0.9;">CÓDIGO DE AMISTAD</h1>
+        </div>
+    </header>
+    
+    <main>
+    <section class="container">
+        <div id="message">
+          <label for="message">Mensaje secreto</label>
+          <textarea id="msg" name="textarea" maxlength="280" placeholder="Escribe o pega tu mensaje secreto aquí"></textarea>
+          <span id="counter" style="line-height: 0.5;">0/280</span>
+
+          <label for="offset">Clave secreta</label>
+          <input id="offset" type="number" min="-100" max="100" placeholder="Ingresa tu clave secreta aquí" name="offset" step="1">
+
+          <div class="btnGroup">
+            <button id="btn-cambiar" class="cipher-style" name="cipher" type="button" style="letter-spacing: 0.145em;">
+              <i class="fas fa-lock"></i> Cifrar
+            </button>
+
+            <button id="btn-descifrar" name="decipher" type="button" style="letter-spacing: 0.145em;">
+              <i class="fas fa-lock-open"></i> Descifrar
+            </button>
+          </div>
+        </div>
+        
+        <div class="caja">
+            <p id="msgResult">El nuevo mensaje es: <br> <span id="new_msg"></span></p>
+            <button id="copy" name="copy" type="button">
+                <i class="fas fa-copy"></i> Copiar
+        </div> 
+
+      </section>
+    </main>
+    <footer>
+      <p>	© Los amig@s son la familia que uno elige</p>
+    </footer>
+</body>
+<script src="js/nuevo.js"></script>
+</html>

@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 4px 4px 4px rgb(97, 210, 255);
+}
+header{
+    color: white;
+    margin: 0px;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    align-items: center;
+}
+header h1{
+    margin: 35px;
+    text-shadow: 4px 4px 4px rgb(97, 210, 255);
+}
+.title{
+    float: left;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+section{
+    position: relative;
+}
+.caja {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    text-align: center;
+    margin: 0px auto;
+        margin-top: 0px;
+    border: rgb(255, 0, 149) 3px solid;
+    box-shadow: 0 0 10px rgb(255, 0, 140);
+    margin-top: 5px;
+    z-index: 5;
+    display: inline-block;
+    border-radius: 14px;
+    height: 400px;
+    text-align:center;
+}
+.container {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    align-items: center;
+}
+#message {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+#message {
+    width: 70%;
+}
+label {
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    font-family: 'Chewy', cursive;
+}
+textarea {
+    resize: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Chewy', cursive;
+    font-weight: 300;
+    font-size: 1rem;
+    height: 12rem;
+    background-color: transparent;
+    border: 0.15rem solid rgb(255, 0, 140);
+    box-shadow: 0 0 10px rgb(255, 0, 140);
+}
+span {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: end;
+}
+input[type="number"] {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 0.15rem solid rgb(255, 0, 140);
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1.3rem;
+    box-shadow: 0 0 10px rgb(255, 0, 140);
+}
+.btnGroup {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+button {
+    font-family: 'Chewy', cursive;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: palevioletred;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-bottom: 0.5rem;
+    width: 49%;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgba(79, 79, 131, 0.733);
+}
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+}
+textarea {
+    resize: none;
+    border-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    padding: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    height: 12rem;
+    background-color: transparent;
+    border: 0.15rem solid rgb(255, 0, 140);
+    color:white;
+}
+button#copy {
+    width: 180px;
+    margin-top: 20px;
+    height: 55px;
+    border-radius: 50px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.header-video video {
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+.play {
+    max-height: 150%;
+}
+.header-overlay {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2f2f2f;
+    z-index: 1;
+    opacity: .10;
+}
+.header-content {
+    z-index: 2;
+    margin: 0px;
+    width: 1366px;
+    background-color: rgba(31, 0, 26, 0.753);
+}
+
+footer {
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background-color: rgba(31, 0, 26, 0.753);
+    z-index: 3;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
+
+div#caja p{
+    font-family: 'Chewy', cursive;
+    justify-content: center;
+    font-size: 24px;
+
+}
+#new_msg{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 22px;
+}
