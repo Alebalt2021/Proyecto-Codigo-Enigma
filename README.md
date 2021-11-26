@@ -23,11 +23,11 @@ Fue realizado para compartir secretos con tus mejores amig@s. Permitiéndote ten
 5.	Cuando este envié una respuesta copia el texto cifrado y pégalo en el cuadro de texto
 6.	Por último, haz click en descifrar para ver el contenido. 
 
-## El proyecto cuenta con:
-- Un espacio para que puedas colocar una contraseña
-- Un botón para cifrar tú texto
-- Un botón para descifrar tu texto
-- Un contador de caracteres
+## El proyecto permite:
+- Insertar un mensaje (texto) que queremos cifrar.
+- Ver el resultado del mensaje cifrado.
+- Insertar un mensaje (texto) a descifrar.
+- Ver el resultado del mensaje descifrado.
 
 ## Acordémonos...
 Que los amigos son la familia que uno mismo escoge, así que cuidado, esta palabra a muchos les queda grande.
