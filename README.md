@@ -12,7 +12,7 @@ Fue realizado para compartir secretos con tus mejores amig@s. Permitiéndote ten
 
 **¿Cuáles son los objetivos de estos usuarios en relación con tu producto?** El objetivo principal es poder mantener tu privacidad y la de tus amigos de la mejor forma posible.
 
-**¿Cómo crees que el producto que estás creando está resolviendo sus problemas?** Toda persona necesita su espacio, el cual en muchas ocasiones no es respetado. Este proyecto trae la solución, porque podrás cifrar lo que quieras decirle a tu confidente para relajarte
+**¿Cómo crees que el producto que estás creando está resolviendo sus problemas?** Toda persona necesita su espacio, el cual en muchas ocasiones no es respetado. Este proyecto trae la solución, porque podrás cifrar lo que quieras decirle a tu confidente.
 
 ## Como se usa esta página web:
 

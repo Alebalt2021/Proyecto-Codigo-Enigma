@@ -12,7 +12,7 @@ document.getElementById("btn-cambiar").addEventListener("click",function(){
         //Variable para guadar el número de la posición de la letra del mensaje
         var codMsg = c.charCodeAt();
         //Varible para obtener el nuevo código de mi nueva letra
-        var codNuevo = codMsg + 2;
+        var codNuevo = codMsg + 1;
         //Condicional para reiniciar desde "A", si se pasa de "Z"
         if( codNuevo > 122){
             var d = codNuevo - 122;
@@ -41,12 +41,13 @@ document.getElementById("btn-descifrar").addEventListener("click",function(){
         //Variable para guadar el número de la posición de la letra del mensaje
         var codMsg = c.charCodeAt();
         //Varible para obtener el nuevo código de mi nueva letra
-        var codNuevo = codMsg - 2;
+        var codNuevo = codMsg - 1;
         //Condicional para reiniciar desde "A", si se pasa de "Z"
         if( codNuevo > 122){
             var d = codNuevo - 122;
             codNuevo = 96 + d;   
         }
+        codigosNuevos.push(codNuevo);
 
         //Concadenar las nuevas letras en un solo string
         nuevoMensaje += String.fromCharCode(codNuevo);
