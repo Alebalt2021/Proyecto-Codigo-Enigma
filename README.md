@@ -32,5 +32,4 @@ Fue realizado para compartir secretos con tus mejores amig@s. Permitiéndote ten
 ## Acordémonos...
 Que los amigos son la familia que uno mismo escoge, así que cuidado, esta palabra a muchos les queda grande.
 
-La persona encargada del proyecto es:
-1. Alessandra Gabriela Baltazar Bazza
+Creador: Alessandra Gabriela Baltazar Bazza
